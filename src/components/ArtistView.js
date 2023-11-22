@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import { useState } from 'react' 
 
 function ArtistView() {
     const { id } = useParams()
@@ -12,5 +12,6 @@ function ArtistView() {
         </div>
     )
 }
+
 
 export default ArtistView

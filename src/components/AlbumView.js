@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import { useState } from 'react' 
 
 function AlbumView() {
     const { id } = useParams()
-    const [ albumData, setalbumData ] = useState([])
+    const [ albumData, setAlbumData ] = useState([])
 
     return (
         <div>
